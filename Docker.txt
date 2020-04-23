@@ -1,0 +1,7 @@
+Build a local image:
+
+$ docker build -t svelte/myapp .
+
+And run it:
+
+$ docker run -p 5000:5000 svelte/myapp
