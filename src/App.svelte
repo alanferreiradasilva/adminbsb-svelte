@@ -8,8 +8,6 @@
 	import { Router } from 'svelte-router-spa';
 	import { routes } from './routes/route.js';
 
-	export let name;
-
 	let loader = true;
 
 	setTimeout(() => { loader = false; }, 2000);
